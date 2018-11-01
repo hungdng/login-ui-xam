@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginSamplaUI.SignUpPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1" Margin="20, 0, 20, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Entry Grid.Row="1" Placeholder="Username" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="2" Placeholder="Full name" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="3" Placeholder="Sex" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="4" Placeholder="Birthday" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="5" Placeholder="Password" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="6" Placeholder="Re-password" PlaceholderColor="#bababa" FontSize="16"/>
+                <Button Grid.Row="7" 
+                        HeightRequest="50" 
+                        BackgroundColor="#3897f0" 
+                        Text="Login" 
+                        TextColor="White"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
